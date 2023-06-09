@@ -31,7 +31,7 @@ elForm.addEventListener('submit', (evt) => {
             localStorage.setItem('name',inputName.value)
             localStorage.setItem('email',inputEmail.value)
             localStorage.setItem('password',inputPassword.value)
-            window.location.href = 'http://127.0.0.1:5500/home.html'
+            window.location.href = 'http://localhost:5500/home.html'
         }else{
             alert('Ma`lumotlarni to`ldirishingiz shart!!!')
         }
@@ -43,7 +43,7 @@ elForm.addEventListener('submit', (evt) => {
     })
 
     btnSignIn.addEventListener('click',()=>{
-        window.location.href = 'http://127.0.0.1:5500/login.html'
+        window.location.href = 'http://localhost:5500/login.html'
     })
 
   
